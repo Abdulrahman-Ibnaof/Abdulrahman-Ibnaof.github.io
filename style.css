@@ -196,6 +196,14 @@ section { padding: 6rem 2rem; }
 .cert-card h3 { color: var(--white); font-size: 1.1rem; margin-bottom: 0.4rem; }
 .cert-card p { color: var(--muted); font-size: 0.9rem; margin-bottom: 1rem; }
 .cert-badge { background: rgba(59,130,246,0.1); border: 1px solid rgba(59,130,246,0.2); color: var(--accent); font-size: 0.78rem; padding: 0.3rem 0.8rem; border-radius: 20px; }
+.cert-official { border-color: #FF9900; max-width: 300px; margin: 0 auto; }
+.cert-badge-official { background: rgba(16,185,129,0.1); border-color: rgba(16,185,129,0.3); color: var(--green); }
+.certs-subtitle { color: var(--white); font-size: 1.1rem; font-weight: 600; margin-bottom: 1.5rem; }
+.courses-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 1rem; }
+.course-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.2rem; display: flex; flex-direction: column; align-items: center; gap: 0.7rem; transition: transform 0.3s, border-color 0.3s; }
+.course-card:hover { transform: translateY(-4px); border-color: var(--accent); }
+.course-icon { font-size: 1.8rem; }
+.course-card span { color: var(--muted); font-size: 0.85rem; font-weight: 500; text-align: center; }
 
 /* ── Contact ── */
 #contact { background: var(--bg2); text-align: center; }
